@@ -748,7 +748,9 @@ img {
   margin: auto;
 }
 
-.modal-w-checkbox-input:checked .modal-w-checkbox-span .modal-w-checkbox-label {
+.modal-w-checkbox-input:checked
+  + .modal-w-checkbox-span
+  .modal-w-checkbox-label {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
