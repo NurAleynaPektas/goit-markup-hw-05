@@ -533,6 +533,10 @@ img {
   color: #ffffff;
 }
 
+.footer-input::placeholder {
+  color: #ffffff;
+}
+
 .footer-button {
   min-width: 165px;
   height: 40px;
