@@ -756,7 +756,7 @@ img {
   margin: auto;
 }
 
-.modal-w-checkbox-input:checked {
+/*.modal-w-checkbox-input:checked {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -769,6 +769,15 @@ img {
 }
 
 .modal-w-checkbox-label:checked {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+  */
+
+.modal-w-checkbox-input:checked
+  + .modal-w-checkbox-label
+  .modal-w-checkbox-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
