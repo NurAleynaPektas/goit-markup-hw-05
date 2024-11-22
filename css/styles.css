@@ -395,7 +395,7 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-fourth-section-li:hover {
+.main-fourth-section-li :hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -421,7 +421,7 @@ img {
 }
 
 .main-fourth-section-li:hover .fourth-s-img-p {
-  transform: translateY(0%);
+  transform: translateY(0);
 }
 
 .main-fourth-section-div {
@@ -479,7 +479,11 @@ img {
   fill: #f4f4fd;
 }
 
-.footer-div-sm-p-ul-li-a:hover,
+.footer-div-sm-p-ul-li-a:hover {
+  background-color: #31d0aa;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .footer-div-sm-p-ul-li-a:focus {
   background-color: #31d0aa;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
